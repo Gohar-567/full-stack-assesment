@@ -72,19 +72,3 @@ python manage.py test trip.tests.test_hos_engine.HosEngineTests.test_seventy_hou
 ```
 
 ---
-
-## API
-
-```
-POST http://localhost:8000/api/trip/plan
-Content-Type: application/json
-
-{
-  "current_location": "Chicago, IL",
-  "pickup_location": "Kansas City, MO",
-  "dropoff_location": "Los Angeles, CA",
-  "current_cycle_used": 20.0
-}
-```
-
----
